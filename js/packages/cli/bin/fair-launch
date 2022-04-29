@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+dir=$(dirname "$0")
+node "$dir/../build/fair-launch-cli.js" "$@"
